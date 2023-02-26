@@ -11,14 +11,17 @@ Ketika ingin mengembalikan nilai, kata kunci return tidak diperlukan lagi karena
 
 Lambda expression dapat digunakan sebagai argumen untuk sebuah parameter dan dapat disimpan ke dalam sebuah variabel.
 * */
+val lambdaVariabel : (String)-> String = {
+    "Halo semua saya adalah $it"
+}
 
-val lambdaPrintText = {println("Halo dunia ini adalah lambda")}
 val lambaTextParameter = {text: String -> println("Halo semua nama saya adalah $text")}
 val lambdaReturn = {text : String -> text.length}
 fun main() {
     val textLength = lambdaReturn( "Kevin Alfito")
+    val lambdaVarieel = lambdaVariabel("Kevin ")
 
-    println(textLength)
-    lambdaPrintText()
+    println(lambdaVarieel)
+
     lambaTextParameter("Kevin ALfito")
 }
