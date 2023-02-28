@@ -1,2 +1,5 @@
-package kotlinOOP
 
+import oop.utils.sayHello
+fun main() {
+    sayHello()
+}

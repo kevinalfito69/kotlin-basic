@@ -29,5 +29,4 @@ fun main() {
 
     dicodingCat.playWithHuman()
     dicodingCat.eat()
-    dicodingCat.sleep()
 }

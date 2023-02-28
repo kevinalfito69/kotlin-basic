@@ -3,6 +3,8 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../../src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../src/main" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../src/main/com/dicoding/oop" />
+      <excludeFolder url="file://$MODULE_DIR$/../../src/main/com/dicoding/oop/utils" />
     </content>
   </component>
 </module>
